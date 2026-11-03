@@ -9,11 +9,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-public class ChatBoot {
+public class ChatBootController {
 
     private final ChatService  chatService;
 
-    public ChatBoot(ChatService chatService) {
+    public ChatBootController(ChatService chatService) {
         this.chatService = chatService;
     }
 
